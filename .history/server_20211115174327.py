@@ -1,0 +1,9 @@
+import socket
+import threading
+
+PORT=5050
+SERVER=socket.gethostbyname(socket.gethostname())
+print(socket.gethostbyname(socket.gethostname()))
+print(socket.gethostname())
+server=socket.socket()
+#server.bind((SERVER,PORT))     
